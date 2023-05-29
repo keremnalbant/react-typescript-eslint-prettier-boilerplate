@@ -1,0 +1,8 @@
+{
+  "Import": {
+    "scope": "javascriptreact,typescriptreact, react, typescript, javascript",
+    "prefix": "icon",
+    "body": ["import { ${0} } from \"${1:@ant-design/icons}\";"],
+    "description": "Import Icon From Ant Design"
+  }
+}

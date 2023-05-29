@@ -1,0 +1,51 @@
+{
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "react"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "eslint.runtime": "node",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.DS_Store": true,
+    "**/.editorconfig": true,
+    "**/.eslintcache": true,
+    "**/.git": true,
+    "**/.gitattributes": true,
+    "**/.husky": true,
+    "**/.pnp.*": true,
+    "**/.prettierignore": true,
+    "**/node_modules": true,
+    "**/yarn.lock": true
+  },
+  "search.exclude": {
+    "**/dist/": true,
+    "**/node_modules/": true,
+    "**/build/": true,
+    "**/coverage/": true,
+    "**/.git/": true,
+    "**/.DS_Store": true,
+    "**/.cache": true,
+    "**/.pnp.*": true,
+    "**/.yarn": true,
+    "**/yarn-error.log": true,
+    "**/yarn.lock": true
+  },
+  "cSpell.words": []
+}
